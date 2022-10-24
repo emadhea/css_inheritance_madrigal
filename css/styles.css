@@ -1,9 +1,31 @@
-/* fonts */
-/* 
-    font-family: 'Cinzel', serif;
-    font-family: 'PT Serif', serif;
-*/
-
+h1 {
+  font-size: 96px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin: 2em auto 30px;
+  line-height: 0.9;
+}
+body {
+  color: #414141;
+  line-height: 1.6;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.6;
+  width: 70%;
+  margin: 0 auto 80px;
+  color: #7D7D7D;
+  font-family: inherit;
+}
+.lead {
+  font-size: 21px;
+}
+a {
+  color: #CA5E10;
+}
 .container {
   width: 90%;
   max-width: 39rem;
